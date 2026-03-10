@@ -43,8 +43,8 @@ export default function BookingForm() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <input type="tel" required placeholder="Phone Number" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors" />
-            <select className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors appearance-none text-opacity-100">
-              <option value="" disabled selected className="text-black">Number of Guests</option>
+            <select defaultValue="" className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors appearance-none text-opacity-100">
+              <option value="" disabled className="text-black">Number of Guests</option>
               <option value="1" className="text-black">1 Person</option>
               <option value="2" className="text-black">2 People</option>
               <option value="3" className="text-black">3 People</option>
