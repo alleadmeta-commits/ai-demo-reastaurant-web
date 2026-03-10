@@ -4,7 +4,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function BookingForm() {
-  const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
+  const [status, setStatus] = useState("idle" as "idle" | "loading" | "success");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();

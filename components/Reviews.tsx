@@ -48,7 +48,7 @@ const reviews = [
 ];
 
 export default function Reviews() {
-  const trackRef = useRef<HTMLDivElement>(null);
+  const trackRef = useRef(null as HTMLDivElement | null);
   const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
